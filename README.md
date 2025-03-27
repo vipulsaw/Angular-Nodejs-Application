@@ -70,8 +70,8 @@ cd /etc/letsencrypt/live/zyanmonster.live/
   DocumentRoot /var/www/html/client
   ServerName zyanmonster.live
 
-  ErrorLog ${APACHE_LOG_DIR}/3milesdev.bridgera.com-error_log
-  CustomLog ${APACHE_LOG_DIR}/3milesdev.bridgera.com-access_log common
+  ErrorLog ${APACHE_LOG_DIR}/zyanmonster-error_log
+  CustomLog ${APACHE_LOG_DIR}/zyanmonster-access_log common
 
   KeepAlive On
   # ProxyRequests Off  # Remove or comment out this line
